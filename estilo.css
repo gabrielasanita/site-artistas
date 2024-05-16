@@ -1,0 +1,25 @@
+p {
+    margin: 0;
+}
+img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+h1{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+p,li,h2,h3,a{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+hr{
+    margin-top: 0%;
+}
+a{
+    color: black;
+}
