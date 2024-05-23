@@ -1,16 +1,38 @@
 p {
     margin: 0;
 }
+body.index{
+    background-color: #e9ecef; 
+}
+body.pag-post{
+    background-color: #d8e2dc; 
+}
+body.pag-barbie{
+    background-color: #fae1dd; 
+}
+body.pag-veigh{
+    background-color: #fefae0; 
+}
 img {
     width: 200px;
     height: 250px;
     object-fit: cover;
+    
+}
+.cabecalho{
+    text-align: center;
+    margin-top: 30px;
 }
 h1{
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
-      
+    text-align: center;
+    margin-bottom: 5px;
+}
+h2{
+    text-align: center;
+    margin-top: 5px;
 }
 p,li,h2,h3,a{
     font-family: "Raleway", sans-serif;
@@ -22,4 +44,25 @@ hr{
 }
 a{
     color: black;
+}
+table,
+th,
+td {
+    border: 1px solid rgb(0, 0, 0);
+}
+table {
+    border-collapse: collapse; /* Remove os espaços entre as bordas */
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.image-box{
+    margin: 0 10px;
+}
+.nomes{
+    margin-top: 8px;
 }
